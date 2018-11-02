@@ -39,10 +39,10 @@ void setup(){
   windforce = getWindForce();
   // #region WiFi
   WiFi.mode(WIFI_STA);
-  wifiMulti.addAP("ASUS", "Kralingse556");
-  wifiMulti.addAP("NETGEAR81", "KoHa202836");
-  wifiMulti.addAP("Tesla IoT", "fsL6HgjN");
-  wifiMulti.addAP("KoensHotspot", "koen2008");
+  wifiMulti.addAP("*****", "*****");
+  wifiMulti.addAP("*****", "***");
+  wifiMulti.addAP("***", "******");
+  wifiMulti.addAP("****", "*****");
   Serial.println("Connecting Wifi...");
   int startTime = millis();
   while (wifiMulti.run() != WL_CONNECTED) {
@@ -97,10 +97,10 @@ void setup() {
   // #region WiFi
   WiFi.hostname("SERVER");                  // only for debug
   WiFi.mode(WIFI_STA);
-  wifiMulti.addAP("ASUS", "Kralingse556");
-  wifiMulti.addAP("NETGEAR81", "KoHa202836");
-  wifiMulti.addAP("Tesla IoT", "fsL6HgjN");
-  wifiMulti.addAP("KoensHotspot", "koen2008");
+  wifiMulti.addAP("*****", "*****");
+  wifiMulti.addAP("*****", "***");
+  wifiMulti.addAP("***", "******");
+  wifiMulti.addAP("****", "*****");
   Serial.println("Connecting Wifi...");
   while (wifiMulti.run() != WL_CONNECTED) {
     Serial.print(".");
