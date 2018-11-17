@@ -19,7 +19,7 @@
 
 int temp = 0;
 int hum = 0;
-int windforce = 0;
+int windforce =  0;
 
 ESP8266WiFiMulti wifiMulti;
 
